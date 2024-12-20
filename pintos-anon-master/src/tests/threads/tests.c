@@ -8,6 +8,7 @@ struct test
     const char *name;
     test_func *function;
   };
+
 // Hàm test cho echo
 void test_echo(void) {
   const char *args = "x y z";  // Các đối số cần kiểm tra
